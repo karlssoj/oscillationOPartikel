@@ -43,7 +43,7 @@ public class ButterflyController : MonoBehaviour
          FlyMotion();
          WingMotion();
 
-         transform.Translate(0, 0, 1 * Time.deltaTime);
+         transform.Translate(0, 0, 3 * Time.deltaTime);
     }
 
     void WingMotion()
