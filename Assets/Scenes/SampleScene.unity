@@ -905,6 +905,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2019732463}
+  - component: {fileID: 2019732464}
   m_Layer: 0
   m_Name: MovingParts
   m_TagString: Untagged
@@ -929,6 +930,22 @@ Transform:
   - {fileID: 119820227}
   m_Father: {fileID: 1161907535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2019732464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019732462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad3d9bda5b0d9543957f0d840fef35e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  k: 10
+  mass: 1
+  damping: 0.9
+  g: 9.82
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
